@@ -1,0 +1,10 @@
+Allocate App Node to project
+
+oc label node/genericuatapp1.onlinesbi.com reconn=true
+oc adm new-project sbigconstest --node-selector='reconn=true'
+
+Add User (master all)
+
+htpasswd -b /etc/origin/master/htpasswd gconsdevuser sbigcons@12345
+/usr/local/bin/master-restart api api
+/usr/local/bin/master-restart controllers controllers
