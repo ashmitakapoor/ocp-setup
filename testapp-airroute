@@ -1,0 +1,35 @@
+Test Application
+****************
+ oc new-app --docker-image=docker-registry.default.svc:5000/openshift/airroute:v1 --allow-missing-images=true
+ oc get po
+ oc get po -w
+ oc get po
+ oc get sv
+ oc get svc
+ curl -k  172.30.119.128:8080
+
+
+Using Service IP
+****************
+
+oc get svc -n default
+oc get svc -n test
+curl  172.30.119.128:8080
+
+Using Route Created 
+#curl sbitestocp.onlinesbi.com
+
+
+<!DOCKTYPE html>
+<html>
+<head>AIR ROUTES V1</head>
+<body>
+<img src="world-air-route-map.png" title="AIRROUTE V1" alt="AIR ROUTE V1" height="100%" width="100%">
+</body>
+</html>
+[root@upiuatmaster1 ~]#
+
+Change Host Name
+***************
+
+hostnamectl set-hostname upiuatmaster1.onlinesbi.com
