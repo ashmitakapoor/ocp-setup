@@ -1,0 +1,1718 @@
+
+Notifications
+ Help
+ocpadmin 
+ Toggle navigation
+
+Search Catalog
+Search Catalog
+Overview
+Applications
+Builds
+Resources
+Storage
+Monitoring
+Catalog
+Deployments  upinew  #1
+upinew-1 created in 4 minutes
+app
+upinew
+openshift.io/deployment-config.name
+upinew
+Details
+Environment
+Metrics
+Logs
+Events
+Status:  Active Save  | Expand 
+Follow
+                  $$$        $$$$$      $$$$         $$$$     $$$$$
+                  $$$       $$$$$$$     $$$$         $$$$    $$$$$$$
+                  $$$       $$$$$$$     $$$$$       $$$$$    $$$$$$$
+                  $$$       $$$$$$$      $$$$       $$$$     $$$$$$$
+                  $$$      $$$$ $$$$     $$$$$     $$$$$    $$$$ $$$$
+                  $$$      $$$$ $$$$      $$$$     $$$$     $$$$ $$$$
+                  $$$     $$$$$ $$$$$     $$$$     $$$$    $$$$$ $$$$$
+                  $$$     $$$$   $$$$     $$$$$   $$$$$    $$$$   $$$$
+                  $$$     $$$$   $$$$      $$$$   $$$$     $$$$   $$$$
+                  $$$    $$$$$   $$$$$     $$$$$ $$$$$    $$$$$   $$$$$
+                  $$$    $$$$$$$$$$$$$      $$$$ $$$$     $$$$$$$$$$$$$
+          $$$$   $$$$    $$$$$$$$$$$$$      $$$$ $$$$     $$$$$$$$$$$$$
+          $$$$   $$$$   $$$$$$$$$$$$$$$      $$$$$$$     $$$$$$$$$$$$$$$
+          $$$$$ $$$$$   $$$$       $$$$      $$$$$$$     $$$$       $$$$
+          $$$$$$$$$$$  $$$$$       $$$$$     $$$$$$$    $$$$$       $$$$$
+           $$$$$$$$$   $$$$         $$$$      $$$$$     $$$$         $$$$
+            $$$$$$$    $$$$         $$$$      $$$$$     $$$$         $$$$
+
+ :: Spring Boot (v2.1.6.RELEASE) :: 
+2019-08-13 08:49:35.289  INFO 1 --- [           main] c.v.u.UpiBalanceEnquiryApplication       : Starting UpiBalanceEnquiryApplication v0.0.1-SNAPSHOT on upinew-1-zm7jb with PID 1 (/upi-balance-enquiry-0.0.1-SNAPSHOT.jar started by ? in /)
+2019-08-13 08:49:35.312  INFO 1 --- [           main] c.v.u.UpiBalanceEnquiryApplication       : No active profile set, falling back to default profiles: default
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/upi-balance-enquiry-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/log4j-slf4j-impl-2.11.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/upi-balance-enquiry-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings  for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+2019-08-13 08:49:38.344  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'metricsConfiguration' of type [com.vTransact.upi.config.MetricsConfiguration$$EnhancerBySpringCGLIB$$e6b66a2a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-13 08:49:38.350  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'com.ryantenney.metrics.spring.config.annotation.DelegatingMetricsConfiguration' of type [com.ryantenney.metrics.spring.config.annotation.DelegatingMetricsConfiguration$$EnhancerBySpringCGLIB$$bbbfc9fc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-13 08:49:38.363  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'getMetricRegistry' of type [com.codahale.metrics.MetricRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-13 08:49:38.390  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'getHealthCheckRegistry' of type [com.codahale.metrics.health.HealthCheckRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-13 08:49:38.855  INFO 1 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+Aug 13, 2019 8:49:38 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Aug 13, 2019 8:49:38 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Aug 13, 2019 8:49:38 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-13 08:49:39.090  INFO 1 --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3703 ms
+Aug 13, 2019 8:49:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+2019-08-13 08:49:39.522  INFO 1 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2019-08-13 08:49:40.729  INFO 1 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+INFO: AscBankTypeRepo | init[41] |  | initializing Associate vehicle list
+INFO: AscBankTypeRepo | initIfsc[87] |  | ::::::Merged Bank Ifsc Code::::::
+INFO: AscBankTypeRepo | initIfsc[90] |  | ::::::Ifsc Code::::::
+INFO: AscBankTypeRepo | initIfsc[94] |  | ::::::Merged Bank IIN::::::
+INFO: AscBankTypeRepo | initIfsc[97] |  | IIN===>
+2019-08-13 08:49:44.702  INFO 1 --- [           main] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@73d6d0c, org.springframework.security.web.context.SecurityContextPersistenceFilter@3163987e, org.springframework.security.web.header.HeaderWriterFilter@22d6cac2, org.springframework.security.web.csrf.CsrfFilter@2c30b71f, org.springframework.security.web.authentication.logout.LogoutFilter@9ec531, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@11a82d0f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4c9e9fb8, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@e36bb2a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@16943e88, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5f233b26, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e8a459, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3961a41a, org.springframework.security.web.session.SessionManagementFilter@1654a892, org.springframework.security.web.access.ExceptionTranslationFilter@ec50f54, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@15515c51]
+2019-08-13 08:49:44.785  INFO 1 --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 15 endpoint(s) beneath base path '/actuator'
+Aug 13, 2019 8:49:44 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+2019-08-13 08:49:44.940  INFO 1 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path '/upi-service'
+2019-08-13 08:49:44.944  INFO 1 --- [           main] c.v.u.UpiBalanceEnquiryApplication       : Started UpiBalanceEnquiryApplication in 10.722 seconds (JVM running for 13.607)
+8/13/19 8:50:38 AM =============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.attributes.name
+             value = 1@upinew-1-zm7jb
+jvm.attributes.uptime
+             value = 67010
+jvm.attributes.vendor
+             value = Oracle Corporation OpenJDK 64-Bit Server VM 25.212-b04 (1.8)
+jvm.buffers.direct.capacity
+             value = 0
+jvm.buffers.direct.count
+             value = 0
+jvm.buffers.direct.used
+             value = 0
+jvm.buffers.mapped.capacity
+             value = 0
+jvm.buffers.mapped.count
+             value = 0
+jvm.buffers.mapped.used
+             value = 0
+jvm.files
+             value = 7.2479248046875E-5
+jvm.garbage.Copy.count
+             value = 19
+jvm.garbage.Copy.time
+             value = 345
+jvm.garbage.MarkSweepCompact.count
+             value = 3
+jvm.garbage.MarkSweepCompact.time
+             value = 237
+jvm.memory.heap.committed
+             value = 381222912
+jvm.memory.heap.init
+             value = 394264576
+jvm.memory.heap.max
+             value = 6069616640
+jvm.memory.heap.usage
+             value = 0.015170712330194219
+jvm.memory.heap.used
+             value = 92080408
+jvm.memory.non-heap.committed
+             value = 100925440
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -9.5983208E7
+jvm.memory.non-heap.used
+             value = 95983272
+jvm.memory.pools.Code-Cache.committed
+             value = 19660800
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.07380599975585937
+jvm.memory.pools.Code-Cache.used
+             value = 18573888
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 9043968
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.007784932851791382
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 8359008
+jvm.memory.pools.Eden-Space.committed
+             value = 105250816
+jvm.memory.pools.Eden-Space.init
+             value = 105185280
+jvm.memory.pools.Eden-Space.max
+             value = 1674444800
+jvm.memory.pools.Eden-Space.usage
+             value = 0.027681638713918787
+jvm.memory.pools.Eden-Space.used
+             value = 46351376
+jvm.memory.pools.Eden-Space.used-after-gc
+             value = 0
+jvm.memory.pools.Metaspace.committed
+             value = 72220672
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.95613488614451
+jvm.memory.pools.Metaspace.used
+             value = 69052704
+jvm.memory.pools.Survivor-Space.committed
+             value = 13107200
+jvm.memory.pools.Survivor-Space.init
+             value = 13107200
+jvm.memory.pools.Survivor-Space.max
+             value = 209256448
+jvm.memory.pools.Survivor-Space.usage
+             value = 0.028416959462104603
+jvm.memory.pools.Survivor-Space.used
+             value = 5946432
+jvm.memory.pools.Survivor-Space.used-after-gc
+             value = 5946432
+jvm.memory.pools.Tenured-Gen.committed
+             value = 262864896
+jvm.memory.pools.Tenured-Gen.init
+             value = 262864896
+jvm.memory.pools.Tenured-Gen.max
+             value = 4185915392
+jvm.memory.pools.Tenured-Gen.usage
+             value = 0.009503918802570963
+jvm.memory.pools.Tenured-Gen.used
+             value = 39782600
+jvm.memory.pools.Tenured-Gen.used-after-gc
+             value = 29578088
+jvm.memory.total.committed
+             value = 482148352
+jvm.memory.total.init
+             value = 396820480
+jvm.memory.total.max
+             value = 6069616639
+jvm.memory.total.used
+             value = 188077624
+jvm.threads.blocked.count
+             value = 0
+jvm.threads.count
+             value = 28
+jvm.threads.daemon.count
+             value = 24
+jvm.threads.deadlock.count
+             value = 0
+jvm.threads.deadlocks
+             value = []
+jvm.threads.new.count
+             value = 0
+jvm.threads.runnable.count
+             value = 10
+jvm.threads.terminated.count
+             value = 0
+jvm.threads.timed_waiting.count
+             value = 4
+jvm.threads.waiting.count
+             value = 14
+
+-- Counters --------------------------------------------------------------------
+com.codahale.metrics.servlet.InstrumentedFilter.activeRequests
+             count = 0
+
+-- Meters ----------------------------------------------------------------------
+com.codahale.metrics.servlet.InstrumentedFilter.errors
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.responseCodes.badRequest
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.responseCodes.created
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.responseCodes.noContent
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.responseCodes.notFound
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.responseCodes.ok
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.responseCodes.other
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.responseCodes.serverError
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.timeouts
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+
+-- Timers ----------------------------------------------------------------------
+com.codahale.metrics.servlet.InstrumentedFilter.requests
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.controllers.psp.PSPHomeServiceContrl.web_step1_getAccBalConfReqWeb
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.npci.common.NPCIUPIUtilNew.generateSuccessAckRequest
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.npci.common.NPCIUPIUtilNew.sendRequestToNPCI
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.npci.repo.NPCICommonRepoImpl.logOutgoingMessage
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.npci.service.UPIBalanceEnqServiceImpl.logAndAckRespBalEnquiry
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.npci.service.UPIBalanceEnqServiceImpl.postBalanceEnqAPIRequest
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.CommonRepoImpl.call1_getAppEncKey
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.CommonRepoImpl.call2_checkDuplicateRequest
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.CommonRepoImpl.checkTxnInitializedBy
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.CommonRepoImpl.fetchBalEnqDetailsForGoogle
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.MobileRegistrationRepoImpl.updateBalEnqResponse
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.psp.PSPServiceRepoImpl.checkforDeviceRegistrationByAccIdDid
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.psp.PspCommonRepoImpl.checkGAccDetails
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.psp.PspRegistrationRepoImpl.checkDeviceRegistration
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.service.BalanceEnquirySvcImpl.processBalEnqResp
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.util.NPCIPollerUtil.checkNPCIResponse
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.util.NPCIPollerUtil.populateNPCIResponse
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.util.PspDTOUtil.getAccBalConfReqWeb
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.util.PspDTOUtil.getAccBalConfWeb
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.util.PspDTOUtil.getAccBalInitiateWeb
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+
+
+8/13/19 8:51:38 AM =============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.attributes.name
+             value = 1@upinew-1-zm7jb
+jvm.attributes.uptime
+             value = 127008
+jvm.attributes.vendor
+             value = Oracle Corporation OpenJDK 64-Bit Server VM 25.212-b04 (1.8)
+jvm.buffers.direct.capacity
+             value = 0
+jvm.buffers.direct.count
+             value = 0
+jvm.buffers.direct.used
+             value = 0
+jvm.buffers.mapped.capacity
+             value = 0
+jvm.buffers.mapped.count
+             value = 0
+jvm.buffers.mapped.used
+             value = 0
+jvm.files
+             value = 7.2479248046875E-5
+jvm.garbage.Copy.count
+             value = 19
+jvm.garbage.Copy.time
+             value = 345
+jvm.garbage.MarkSweepCompact.count
+             value = 3
+jvm.garbage.MarkSweepCompact.time
+             value = 237
+jvm.memory.heap.committed
+             value = 381222912
+jvm.memory.heap.init
+             value = 394264576
+jvm.memory.heap.max
+             value = 6069616640
+jvm.memory.heap.usage
+             value = 0.015517529621112941
+jvm.memory.heap.used
+             value = 94185456
+jvm.memory.non-heap.committed
+             value = 101187584
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -9.5950336E7
+jvm.memory.non-heap.used
+             value = 95950336
+jvm.memory.pools.Code-Cache.committed
+             value = 19660800
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.07334747314453124
+jvm.memory.pools.Code-Cache.used
+             value = 18458496
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 9043968
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.007791757583618164
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 8366336
+jvm.memory.pools.Eden-Space.committed
+             value = 105250816
+jvm.memory.pools.Eden-Space.init
+             value = 105185280
+jvm.memory.pools.Eden-Space.max
+             value = 1674444800
+jvm.memory.pools.Eden-Space.usage
+             value = 0.028938800490765654
+jvm.memory.pools.Eden-Space.used
+             value = 48456424
+jvm.memory.pools.Eden-Space.used-after-gc
+             value = 0
+jvm.memory.pools.Metaspace.committed
+             value = 72482816
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9537000328464059
+jvm.memory.pools.Metaspace.used
+             value = 69126864
+jvm.memory.pools.Survivor-Space.committed
+             value = 13107200
+jvm.memory.pools.Survivor-Space.init
+             value = 13107200
+jvm.memory.pools.Survivor-Space.max
+             value = 209256448
+jvm.memory.pools.Survivor-Space.usage
+             value = 0.028416959462104603
+jvm.memory.pools.Survivor-Space.used
+             value = 5946432
+jvm.memory.pools.Survivor-Space.used-after-gc
+             value = 5946432
+jvm.memory.pools.Tenured-Gen.committed
+             value = 262864896
+jvm.memory.pools.Tenured-Gen.init
+             value = 262864896
+jvm.memory.pools.Tenured-Gen.max
+             value = 4185915392
+jvm.memory.pools.Tenured-Gen.usage
+             value = 0.009503918802570963
+jvm.memory.pools.Tenured-Gen.used
+             value = 39782600
+jvm.memory.pools.Tenured-Gen.used-after-gc
+             value = 29578088
+jvm.memory.total.committed
+             value = 482410496
+jvm.memory.total.init
+             value = 396820480
+jvm.memory.total.max
+             value = 6069616639
+jvm.memory.total.used
+             value = 190148992
+jvm.threads.blocked.count
+             value = 0
+jvm.threads.count
+             value = 28
+jvm.threads.daemon.count
+             value = 24
+jvm.threads.deadlock.count
+             value = 0
+jvm.threads.deadlocks
+             value = []
+jvm.threads.new.count
+             value = 0
+jvm.threads.runnable.count
+             value = 10
+jvm.threads.terminated.count
+             value = 0
+jvm.threads.timed_waiting.count
+             value = 4
+jvm.threads.waiting.count
+             value = 14
+
+-- Counters --------------------------------------------------------------------
+com.codahale.metrics.servlet.InstrumentedFilter.activeRequests
+             count = 0
+
+-- Meters ----------------------------------------------------------------------
+com.codahale.metrics.servlet.InstrumentedFilter.errors
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.responseCodes.badRequest
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.responseCodes.created
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.responseCodes.noContent
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.responseCodes.notFound
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.responseCodes.ok
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.responseCodes.other
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.responseCodes.serverError
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.timeouts
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+
+-- Timers ----------------------------------------------------------------------
+com.codahale.metrics.servlet.InstrumentedFilter.requests
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.controllers.psp.PSPHomeServiceContrl.web_step1_getAccBalConfReqWeb
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.npci.common.NPCIUPIUtilNew.generateSuccessAckRequest
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.npci.common.NPCIUPIUtilNew.sendRequestToNPCI
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.npci.repo.NPCICommonRepoImpl.logOutgoingMessage
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.npci.service.UPIBalanceEnqServiceImpl.logAndAckRespBalEnquiry
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.npci.service.UPIBalanceEnqServiceImpl.postBalanceEnqAPIRequest
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.CommonRepoImpl.call1_getAppEncKey
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.CommonRepoImpl.call2_checkDuplicateRequest
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.CommonRepoImpl.checkTxnInitializedBy
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.CommonRepoImpl.fetchBalEnqDetailsForGoogle
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.MobileRegistrationRepoImpl.updateBalEnqResponse
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.psp.PSPServiceRepoImpl.checkforDeviceRegistrationByAccIdDid
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.psp.PspCommonRepoImpl.checkGAccDetails
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.psp.PspRegistrationRepoImpl.checkDeviceRegistration
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.service.BalanceEnquirySvcImpl.processBalEnqResp
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.util.NPCIPollerUtil.checkNPCIResponse
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.util.NPCIPollerUtil.populateNPCIResponse
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.util.PspDTOUtil.getAccBalConfReqWeb
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.util.PspDTOUtil.getAccBalConfWeb
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.util.PspDTOUtil.getAccBalInitiateWeb
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+
+
+8/13/19 8:52:38 AM =============================================================
+
+-- Gauges ----------------------------------------------------------------------
+jvm.attributes.name
+             value = 1@upinew-1-zm7jb
+jvm.attributes.uptime
+             value = 187008
+jvm.attributes.vendor
+             value = Oracle Corporation OpenJDK 64-Bit Server VM 25.212-b04 (1.8)
+jvm.buffers.direct.capacity
+             value = 0
+jvm.buffers.direct.count
+             value = 0
+jvm.buffers.direct.used
+             value = 0
+jvm.buffers.mapped.capacity
+             value = 0
+jvm.buffers.mapped.count
+             value = 0
+jvm.buffers.mapped.used
+             value = 0
+jvm.files
+             value = 7.2479248046875E-5
+jvm.garbage.Copy.count
+             value = 19
+jvm.garbage.Copy.time
+             value = 345
+jvm.garbage.MarkSweepCompact.count
+             value = 3
+jvm.garbage.MarkSweepCompact.time
+             value = 237
+jvm.memory.heap.committed
+             value = 381222912
+jvm.memory.heap.init
+             value = 394264576
+jvm.memory.heap.max
+             value = 6069616640
+jvm.memory.heap.usage
+             value = 0.01580401888446121
+jvm.memory.heap.used
+             value = 95924336
+jvm.memory.non-heap.committed
+             value = 101187584
+jvm.memory.non-heap.init
+             value = 2555904
+jvm.memory.non-heap.max
+             value = -1
+jvm.memory.non-heap.usage
+             value = -9.6078216E7
+jvm.memory.non-heap.used
+             value = 96078216
+jvm.memory.pools.Code-Cache.committed
+             value = 19660800
+jvm.memory.pools.Code-Cache.init
+             value = 2555904
+jvm.memory.pools.Code-Cache.max
+             value = 251658240
+jvm.memory.pools.Code-Cache.usage
+             value = 0.07356033325195313
+jvm.memory.pools.Code-Cache.used
+             value = 18512064
+jvm.memory.pools.Compressed-Class-Space.committed
+             value = 9043968
+jvm.memory.pools.Compressed-Class-Space.init
+             value = 0
+jvm.memory.pools.Compressed-Class-Space.max
+             value = 1073741824
+jvm.memory.pools.Compressed-Class-Space.usage
+             value = 0.0077948421239852905
+jvm.memory.pools.Compressed-Class-Space.used
+             value = 8369648
+jvm.memory.pools.Eden-Space.committed
+             value = 105250816
+jvm.memory.pools.Eden-Space.init
+             value = 105185280
+jvm.memory.pools.Eden-Space.max
+             value = 1674444800
+jvm.memory.pools.Eden-Space.usage
+             value = 0.02997728202207681
+jvm.memory.pools.Eden-Space.used
+             value = 50195304
+jvm.memory.pools.Eden-Space.used-after-gc
+             value = 0
+jvm.memory.pools.Metaspace.committed
+             value = 72482816
+jvm.memory.pools.Metaspace.init
+             value = 0
+jvm.memory.pools.Metaspace.max
+             value = -1
+jvm.memory.pools.Metaspace.usage
+             value = 0.9546608122951514
+jvm.memory.pools.Metaspace.used
+             value = 69196504
+jvm.memory.pools.Survivor-Space.committed
+             value = 13107200
+jvm.memory.pools.Survivor-Space.init
+             value = 13107200
+jvm.memory.pools.Survivor-Space.max
+             value = 209256448
+jvm.memory.pools.Survivor-Space.usage
+             value = 0.028416959462104603
+jvm.memory.pools.Survivor-Space.used
+             value = 5946432
+jvm.memory.pools.Survivor-Space.used-after-gc
+             value = 5946432
+jvm.memory.pools.Tenured-Gen.committed
+             value = 262864896
+jvm.memory.pools.Tenured-Gen.init
+             value = 262864896
+jvm.memory.pools.Tenured-Gen.max
+             value = 4185915392
+jvm.memory.pools.Tenured-Gen.usage
+             value = 0.009503918802570963
+jvm.memory.pools.Tenured-Gen.used
+             value = 39782600
+jvm.memory.pools.Tenured-Gen.used-after-gc
+             value = 29578088
+jvm.memory.total.committed
+             value = 482410496
+jvm.memory.total.init
+             value = 396820480
+jvm.memory.total.max
+             value = 6069616639
+jvm.memory.total.used
+             value = 192006136
+jvm.threads.blocked.count
+             value = 0
+jvm.threads.count
+             value = 28
+jvm.threads.daemon.count
+             value = 24
+jvm.threads.deadlock.count
+             value = 0
+jvm.threads.deadlocks
+             value = []
+jvm.threads.new.count
+             value = 0
+jvm.threads.runnable.count
+             value = 10
+jvm.threads.terminated.count
+             value = 0
+jvm.threads.timed_waiting.count
+             value = 4
+jvm.threads.waiting.count
+             value = 14
+
+-- Counters --------------------------------------------------------------------
+com.codahale.metrics.servlet.InstrumentedFilter.activeRequests
+             count = 0
+
+-- Meters ----------------------------------------------------------------------
+com.codahale.metrics.servlet.InstrumentedFilter.errors
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.responseCodes.badRequest
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.responseCodes.created
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.responseCodes.noContent
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.responseCodes.notFound
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.responseCodes.ok
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.responseCodes.other
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.responseCodes.serverError
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+com.codahale.metrics.servlet.InstrumentedFilter.timeouts
+             count = 0
+         mean rate = 0.00 events/second
+     1-minute rate = 0.00 events/second
+     5-minute rate = 0.00 events/second
+    15-minute rate = 0.00 events/second
+
+-- Timers ----------------------------------------------------------------------
+com.codahale.metrics.servlet.InstrumentedFilter.requests
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.controllers.psp.PSPHomeServiceContrl.web_step1_getAccBalConfReqWeb
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.npci.common.NPCIUPIUtilNew.generateSuccessAckRequest
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.npci.common.NPCIUPIUtilNew.sendRequestToNPCI
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.npci.repo.NPCICommonRepoImpl.logOutgoingMessage
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.npci.service.UPIBalanceEnqServiceImpl.logAndAckRespBalEnquiry
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.npci.service.UPIBalanceEnqServiceImpl.postBalanceEnqAPIRequest
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.CommonRepoImpl.call1_getAppEncKey
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.CommonRepoImpl.call2_checkDuplicateRequest
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.CommonRepoImpl.checkTxnInitializedBy
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.CommonRepoImpl.fetchBalEnqDetailsForGoogle
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.MobileRegistrationRepoImpl.updateBalEnqResponse
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.psp.PSPServiceRepoImpl.checkforDeviceRegistrationByAccIdDid
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.psp.PspCommonRepoImpl.checkGAccDetails
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.repository.psp.PspRegistrationRepoImpl.checkDeviceRegistration
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.service.BalanceEnquirySvcImpl.processBalEnqResp
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.util.NPCIPollerUtil.checkNPCIResponse
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.util.NPCIPollerUtil.populateNPCIResponse
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.util.PspDTOUtil.getAccBalConfReqWeb
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.util.PspDTOUtil.getAccBalConfWeb
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+com.vTransact.upi.util.PspDTOUtil.getAccBalInitiateWeb
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+
+
+  
+Go to Top
