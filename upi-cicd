@@ -1,0 +1,52 @@
+kind: BuildConfig
+apiVersion: v1
+metadata:
+  name: upi-image-pipeline
+spec:
+  source:
+      type: None
+  strategy:
+    jenkinsPipelineStrategy:
+      jenkinsfile: |-
+        pipeline {
+          agent {
+              label 'maven'
+            }
+          stages {        
+            stage('Deploy SIT') {
+              steps {
+               script {
+                openshift.withCluster() {
+                 openshift.withProject("sbiupisit") {
+                 openshift.selector("dc", "upi").rollout().latest();
+                }
+               }
+             }
+            }
+           }
+          stage('Promote to UAT?') {
+           steps {
+            timeout(time:15, unit:'MINUTES') {
+              input message: "Promote to UAT?", ok: "Promote"
+            }
+           script {
+             openshift.withCluster() {
+                openshift.tag("sbiupisit/upi:latest", "sbiupiuat/upi:uat")
+              }
+            }
+           }
+          }
+          stage('Deploy UAT') {
+           steps {
+            script {
+              openshift.withCluster() {
+                openshift.withProject("sbiupiuat") {
+                 openshift.selector("dc", "upi").rollout().latest();
+                 }
+               }
+              }
+           }
+         }
+        }
+        }
+    type: JenkinsPipeline
