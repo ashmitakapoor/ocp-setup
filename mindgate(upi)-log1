@@ -1,0 +1,43 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/upi-balance-enquiry-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/upi-balance-enquiry-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/log4j-slf4j-impl-2.11.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings  for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+                  $$$        $$$$$      $$$$         $$$$     $$$$$
+                  $$$       $$$$$$$     $$$$         $$$$    $$$$$$$
+                  $$$       $$$$$$$     $$$$$       $$$$$    $$$$$$$
+                  $$$       $$$$$$$      $$$$       $$$$     $$$$$$$
+                  $$$      $$$$ $$$$     $$$$$     $$$$$    $$$$ $$$$
+                  $$$      $$$$ $$$$      $$$$     $$$$     $$$$ $$$$
+                  $$$     $$$$$ $$$$$     $$$$     $$$$    $$$$$ $$$$$
+                  $$$     $$$$   $$$$     $$$$$   $$$$$    $$$$   $$$$
+                  $$$     $$$$   $$$$      $$$$   $$$$     $$$$   $$$$
+                  $$$    $$$$$   $$$$$     $$$$$ $$$$$    $$$$$   $$$$$
+                  $$$    $$$$$$$$$$$$$      $$$$ $$$$     $$$$$$$$$$$$$
+          $$$$   $$$$    $$$$$$$$$$$$$      $$$$ $$$$     $$$$$$$$$$$$$
+          $$$$   $$$$   $$$$$$$$$$$$$$$      $$$$$$$     $$$$$$$$$$$$$$$
+          $$$$$ $$$$$   $$$$       $$$$      $$$$$$$     $$$$       $$$$
+          $$$$$$$$$$$  $$$$$       $$$$$     $$$$$$$    $$$$$       $$$$$
+           $$$$$$$$$   $$$$         $$$$      $$$$$     $$$$         $$$$
+            $$$$$$$    $$$$         $$$$      $$$$$     $$$$         $$$$
+
+ :: Spring Boot (v2.1.6.RELEASE) :: 
+2019-08-22 05:23:22.396  INFO 1 --- [           main] c.v.upi.UpiBalanceEnquiryApplication     : Starting UpiBalanceEnquiryApplication v0.0.1-SNAPSHOT on sbiapp-1-hfnx4 with PID 1 (/upi-balance-enquiry-0.0.1-SNAPSHOT.jar started by ? in /)
+2019-08-22 05:23:22.400  INFO 1 --- [           main] c.v.upi.UpiBalanceEnquiryApplication     : No active profile set, falling back to default profiles: default
+2019-08-22 05:23:23.962  WARN 1 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'getMetricRegistry' defined in class path resource [com/vTransact/upi/config/MetricsConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=metricsConfiguration; factoryMethodName=getMetricRegistry; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/vTransact/upi/config/MetricsConfiguration.class]] for bean 'getMetricRegistry': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=com.ryantenney.metrics.spring.config.annotation.DelegatingMetricsConfiguration; factoryMethodName=getMetricRegistry; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/ryantenney/metrics/spring/config/annotation/DelegatingMetricsConfiguration.class]] bound.
+2019-08-22 05:23:23.981  INFO 1 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-08-22 05:23:23.983 ERROR 1 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'getMetricRegistry', defined in class path resource [com/vTransact/upi/config/MetricsConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [com/ryantenney/metrics/spring/config/annotation/DelegatingMetricsConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
